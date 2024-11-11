@@ -1,0 +1,105 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./back1.jpg');
+    background-size: cover;          
+    background-position: center;   
+    background-repeat: no-repeat;    
+    background-attachment: fixed;   
+    height: 100vh;                  
+} */
+
+.posts-container {
+    width: 45%;                      /* Increased width of the container */
+    /* max-width: 1500px;               Maximum width to prevent it from getting too large */
+    margin: 0;
+    padding: 10px;
+         /* Black background for the container */
+    height: 75%;                     /* Increased height of the container */
+    overflow-y: auto;                /* Makes the posts inside scrollable */
+    border-radius: 8px;
+    position: relative;
+    top: 90px;                       /* Shifts the container upwards */
+    margin-left: auto;               /* Aligns the container to the right */
+    margin-right: 0; 
+    top:10px;               /* Ensures there’s no margin on the right */
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background-color: #000;         /* Black background for each post box */
+    border: 1px solid #333;         /* Darker border to differentiate from black background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 20px;
+    width: 80%;                      /* Card width */
+    max-width: 1000px;               /* Maximum width for cards */
+    margin: 0 auto;                  /* Centers the card */
+}
+
+.card .btn-delete {
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn-delete:hover {
+    background-color: #c82333;
+}
+
+.card .username {
+    font-weight: bold;
+    color: #ccc;                    /* Light gray for username to contrast with black background */
+}
+
+.card p {
+    color: black;                    /* Light grey for post text */
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: #f0f0f0;      /* Light grey background for the content box */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.image-container {
+    margin-top: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 2px;
+    width:300px;
+    
+}
+
+.modal .form-control {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.modal .btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.modal .btn-success:hover {
+    background-color: #218838;
+}

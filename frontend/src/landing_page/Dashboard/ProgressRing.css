@@ -1,0 +1,16 @@
+.progress-ring {
+    transform: rotate(-90deg); /* Rotate to start the progress from the top */
+  }
+  
+  .progress-ring__circle {
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+  
+  .progress-ring__text {
+    font-size: 0.8rem;
+    fill: #e0e0e0;
+    font-weight: bold;
+  }
+  

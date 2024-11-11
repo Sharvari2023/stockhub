@@ -1,0 +1,98 @@
+.summary-container {
+    padding: 20px;
+    color: #e0e0e0;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+  }
+  
+  .header h6 {
+    margin-left: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .info-icon {
+    color: #a0a0a0;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .equity-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-ring {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #333;
+    position: relative;
+  }
+  
+  .equity-data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .value {
+    color: #00e676;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .label {
+    color: #b3b3b3;
+    font-size: 0.85rem;
+  }
+  
+  .subtext {
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .assets-section h5 {
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .asset-stats {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .data-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .data-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .value.green {
+    color: #00e676;
+  }
+  
+  .sub-value {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
